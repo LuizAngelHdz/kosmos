@@ -1,0 +1,30 @@
+main {
+  display: flex;
+  flex-direction: column;
+  padding: 0vh 20vh;
+  /* justify-content: center; */
+  /* display: grid; */
+  /* place-items: center; */
+  height: 90vh;
+  /* width: 100vw; */
+}
+
+.container {
+  position: relative;
+  border: 1px solid black;
+  min-height: 800px;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 10vh;
+}
+
+.image-table{
+  height: 50px;
+}
+
+.contentTable{
+  width: 100%;
+}
+.btnAdd{
+  margin: 1vh;
+}
